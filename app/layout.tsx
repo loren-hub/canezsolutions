@@ -8,22 +8,22 @@ const geist = Geist({ subsets: ['latin'], variable: '--font-geist' })
 const geistMono = Geist_Mono({ subsets: ['latin'], variable: '--font-geist-mono' })
 
 export const metadata: Metadata = {
-  title: 'CanezSolutions | Ciberseguridad Monitorizada para Pymes',
+  title: 'CanezSolutions | Ciberseguridad Monitorizada para PYMEs',
   description:
-    'Monitorización, auditoría y reporte de seguridad IT para pymes en España. Supervisión continua de accesos, actualizaciones y políticas de seguridad.',
+    'Monitorización, auditoría y reporte de seguridad IT para PYMEs en España. Supervisión continua de accesos, actualizaciones y políticas de seguridad.',
   keywords: [
-    'ciberseguridad pymes',
+    'ciberseguridad PYMEs',
     'monitorización seguridad',
     'auditoría it',
     'protección de datos',
     'seguridad gestionada españa',
-    'soc para pymes',
+    'soc para PYMEs',
   ],
   authors: [{ name: 'CanezSolutions' }],
   openGraph: {
-    title: 'CanezSolutions | Ciberseguridad Monitorizada para Pymes',
+    title: 'CanezSolutions | Ciberseguridad Monitorizada para PYMEs',
     description:
-      'Monitorización, auditoría y reporte de seguridad IT para pymes en España. Supervisión continua y protocolos de respuesta.',
+      'Monitorización, auditoría y reporte de seguridad IT para PYMEs en España. Supervisión continua y protocolos de respuesta.',
     type: 'website',
     locale: 'es_ES',
   },

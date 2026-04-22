@@ -24,7 +24,7 @@ export function Team() {
     <section id="equipo" className="px-6 py-24 md:py-32">
       <div className="mx-auto max-w-7xl">
         <div className="mb-16 text-center">
-          <p className="mb-3 font-mono text-sm uppercase tracking-wider text-primary">Equipo</p>
+          <p className="mb-3 font-mono text-sm uppercase tracking-wider text-primary sm:text-base">Equipo</p>
           <h2 className="mb-4 text-balance text-3xl font-bold tracking-tight md:text-4xl">
             El equipo
           </h2>
@@ -46,8 +46,8 @@ export function Team() {
                 </div>
               </div>
               <h3 className="mb-1 text-lg font-semibold">{member.name}</h3>
-              <p className="mb-4 font-mono text-sm text-primary">{member.role}</p>
-              <p className="text-sm text-muted-foreground leading-relaxed">{member.description}</p>
+              <p className="mb-4 font-mono text-sm text-primary sm:text-base">{member.role}</p>
+              <p className="text-sm text-muted-foreground leading-relaxed sm:text-base">{member.description}</p>
             </div>
           ))}
         </div>

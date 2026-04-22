@@ -6,7 +6,7 @@ export function JsonLdScript() {
     '@type': 'ProfessionalService',
     name: 'CanezSolutions',
     description:
-      'Monitorización, auditoría y reporte de seguridad IT para pymes en España. Supervisión continua de accesos, actualizaciones y políticas de seguridad.',
+      'Monitorización, auditoría y reporte de seguridad IT para PYMEs en España. Supervisión continua de accesos, actualizaciones y políticas de seguridad.',
     url: baseUrl,
     logo: `${baseUrl}/icon.svg`,
     telephone: '+34 000 000 000',
@@ -88,7 +88,7 @@ export function JsonLdScript() {
         name: '¿Qué ocurre cuando no hay nadie mirando la seguridad IT?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Sin supervisión continua, las pymes acumulan riesgos silenciosos: contraseñas reutilizadas, backups sin verificar, sistemas sin actualizar y accesos no autorizados que pasan desapercibidos hasta que es demasiado tarde.',
+          text: 'Sin supervisión continua, las PYMEs acumulan riesgos silenciosos: contraseñas reutilizadas, backups sin verificar, sistemas sin actualizar y accesos no autorizados que pasan desapercibidos hasta que es demasiado tarde.',
         },
       },
       {

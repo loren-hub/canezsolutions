@@ -8,7 +8,7 @@ const services = [
     icon: Server,
     title: 'Auditoría y Supervisión de Seguridad',
     description:
-      'Supervisamos que tu infraestructura esté actualizada, con copias de seguridad funcionales y con la configuración de seguridad aplicada. El trabajo de revisión que debería estar ocurriendo siempre y que en la mayoría de pymes se descuida.',
+      'Supervisamos que tu infraestructura esté actualizada, con copias de seguridad funcionales y con la configuración de seguridad aplicada. El trabajo de revisión que debería estar ocurriendo siempre y que en la mayoría de PYMEs se descuida.',
     bullets: [
       'Supervisión de backups: verificación periódica de políticas de retención, pruebas de restauración documentadas y alertas de fallo',
       'Control de actualizaciones de Windows, Microsoft 365 y Google Workspace: reporte de parches críticos pendientes y ventanas de mantenimiento sugeridas',
@@ -57,15 +57,15 @@ function ServiceCard({
         <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
           <service.icon className="h-6 w-6 text-primary" />
         </div>
-        <span className="font-mono text-sm text-muted-foreground">0{index + 1}</span>
+        <span className="font-mono text-[0.8rem] text-muted-foreground sm:text-sm">0{index + 1}</span>
       </div>
 
       <h3 className="mb-3 text-xl font-semibold">{service.title}</h3>
-      <p className="mb-6 text-muted-foreground">{service.description}</p>
+      <p className="mb-6 text-sm text-muted-foreground sm:text-base">{service.description}</p>
 
       <ul className="mb-6 space-y-3">
         {service.bullets.map((bullet, i) => (
-          <li key={i} className="flex gap-3 text-sm text-muted-foreground">
+          <li key={i} className="flex gap-3 text-sm text-muted-foreground sm:text-base">
             <span className="mt-1.5 h-1 w-1 shrink-0 rounded-full bg-primary" />
             <span>{bullet}</span>
           </li>
@@ -74,7 +74,7 @@ function ServiceCard({
 
       <button
         onClick={() => setIsExpanded(!isExpanded)}
-        className="flex w-full items-center justify-between border-t border-border pt-4 text-sm text-primary transition-colors hover:text-primary/80"
+        className="flex w-full items-center justify-between border-t border-border pt-4 text-sm text-primary transition-colors hover:text-primary/80 sm:text-base"
       >
         <span>Ver caso real</span>
         {isExpanded ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
@@ -82,7 +82,7 @@ function ServiceCard({
 
       {isExpanded && (
         <div className="mt-4 rounded-lg bg-secondary/50 p-4">
-          <p className="text-sm text-muted-foreground italic leading-relaxed">{service.caso}</p>
+          <p className="text-sm text-muted-foreground italic leading-relaxed sm:text-base">{service.caso}</p>
         </div>
       )}
     </div>
@@ -94,7 +94,7 @@ export function Services() {
     <section id="servicios" className="px-6 py-24 md:py-32">
       <div className="mx-auto max-w-7xl">
         <div className="mb-16 max-w-2xl">
-          <p className="mb-3 font-mono text-sm uppercase tracking-wider text-primary">Servicios</p>
+          <p className="mb-3 font-mono text-sm uppercase tracking-wider text-primary sm:text-base">Servicios</p>
           <h2 className="mb-4 text-balance text-3xl font-bold tracking-tight md:text-4xl">
             Servicios
           </h2>

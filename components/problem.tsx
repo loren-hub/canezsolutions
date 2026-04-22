@@ -18,7 +18,7 @@ export function Problem() {
     <section id="problema" className="border-y border-border bg-secondary/30 px-6 py-24 md:py-32">
       <div className="mx-auto max-w-7xl">
         <div className="mb-16 max-w-2xl">
-          <p className="mb-3 font-mono text-sm uppercase tracking-wider text-primary">
+          <p className="mb-3 font-mono text-sm uppercase tracking-wider text-primary sm:text-base">
             El contexto
           </p>
           <h2 className="mb-4 text-balance text-3xl font-bold tracking-tight md:text-4xl">
@@ -33,9 +33,9 @@ export function Problem() {
               className="group relative rounded-lg border border-border bg-card p-8 transition-colors hover:border-primary/30"
             >
               <div className="mb-4 flex items-center gap-3">
-                <span className="font-mono text-sm text-muted-foreground">0{index + 1}</span>
+                <span className="font-mono text-[0.8rem] text-muted-foreground sm:text-sm">0{index + 1}</span>
               </div>
-              <p className="text-muted-foreground leading-relaxed">{problem.text}</p>
+              <p className="text-sm text-muted-foreground leading-relaxed sm:text-base">{problem.text}</p>
             </div>
           ))}
         </div>

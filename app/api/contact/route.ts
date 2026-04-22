@@ -296,7 +296,7 @@ export async function POST(request: Request) {
                   <tr>
                     <td style="padding: 24px 40px; border-top: 1px solid #2a3a2a; background-color: #152015; text-align: center;">
                       <p style="margin: 0 0 4px; font-size: 12px; color: #5a7a5a;">
-                        CanezSolutions — Ciberseguridad monitorizada para pymes
+                        CanezSolutions — Ciberseguridad monitorizada para PYMEs
                       </p>
                       <p style="margin: 0; font-size: 11px; color: #3a5a3a;">
                         <a href="https://canezsolutions.es" style="color: #5a7a5a; text-decoration: none;">canezsolutions.es</a>

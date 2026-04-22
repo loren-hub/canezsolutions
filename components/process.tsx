@@ -30,7 +30,7 @@ export function Process() {
     <section id="proceso" className="border-y border-border bg-secondary/30 px-6 py-24 md:py-32">
       <div className="mx-auto max-w-7xl">
         <div className="mb-16 text-center">
-          <p className="mb-3 font-mono text-sm uppercase tracking-wider text-primary">Proceso</p>
+          <p className="mb-3 font-mono text-sm uppercase tracking-wider text-primary sm:text-base">Proceso</p>
           <h2 className="mb-4 text-balance text-3xl font-bold tracking-tight md:text-4xl">
             Cómo trabajamos con cada cliente
           </h2>
@@ -44,7 +44,7 @@ export function Process() {
               )}
               <div className="mb-4 font-mono text-4xl font-bold text-primary/20">{step.number}</div>
               <h3 className="mb-2 text-lg font-semibold">{step.title}</h3>
-              <p className="text-sm text-muted-foreground">{step.description}</p>
+              <p className="text-sm text-muted-foreground sm:text-base">{step.description}</p>
             </div>
           ))}
         </div>

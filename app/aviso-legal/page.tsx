@@ -5,7 +5,7 @@ export default function LegalNotice() {
     <div className="min-h-screen bg-background">
       <header className="border-b border-border px-6 py-12">
         <div className="mx-auto max-w-4xl">
-          <Link href="/" className="text-sm text-muted-foreground hover:text-foreground">
+          <Link href="/" className="text-sm text-muted-foreground hover:text-foreground sm:text-base">
             ← Volver al inicio
           </Link>
           <h1 className="mt-4 text-3xl font-bold tracking-tight">Aviso Legal</h1>

@@ -27,7 +27,7 @@ export function Footer() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+                  className="text-sm text-muted-foreground transition-colors hover:text-foreground sm:text-base"
                 >
                   {link.label}
                 </Link>
@@ -41,13 +41,13 @@ export function Footer() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+                  className="text-sm text-muted-foreground transition-colors hover:text-foreground sm:text-base"
                 >
                   {link.label}
                 </Link>
               ))}
             </nav>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-sm text-muted-foreground sm:text-base">
               &copy; {new Date().getFullYear()} CanezSolutions. Todos los derechos reservados.
             </p>
           </div>

@@ -19,9 +19,9 @@ export function Hero() {
       <div className="pointer-events-none absolute top-1/4 left-1/2 h-[600px] w-[600px] -translate-x-1/2 rounded-full bg-primary/5 blur-3xl" />
 
       <div className="relative mx-auto max-w-5xl text-center">
-        <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-border bg-secondary/50 px-4 py-2 text-sm text-muted-foreground">
+        <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-border bg-secondary/50 px-4 py-2 text-[0.8rem] text-muted-foreground sm:text-sm">
           <Shield className="h-4 w-4 text-primary" />
-          <span>Ciberseguridad monitorizada para pymes</span>
+          <span>Ciberseguridad monitorizada para PYMEs</span>
         </div>
 
         <h1 className="mb-6 text-balance text-4xl font-bold leading-tight tracking-tight md:text-6xl lg:text-7xl">
@@ -29,7 +29,7 @@ export function Hero() {
           <span className="text-primary">que no tienen departamento IT</span>
         </h1>
 
-        <p className="mx-auto mb-10 max-w-2xl text-balance text-lg text-muted-foreground md:text-xl">
+        <p className="mx-auto mb-10 max-w-2xl text-balance text-base text-muted-foreground sm:text-lg md:text-xl">
           Canez monitoriza y reporta sobre la seguridad de tu infraestructura de forma continua. Backups,
           actualizaciones, monitoreo de accesos y protocolos de respuesta. Sin necesidad de equipo
           interno.
