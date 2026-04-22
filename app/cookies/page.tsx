@@ -68,7 +68,7 @@ export default function CookiePolicy() {
 
           <h2>7. Contacto</h2>
           <p>
-            Si tienes alguna pregunta sobre nuestra Política de Cookies, no dudes en contactarnos a: [email@canezsolutions.com]
+            Si tienes alguna pregunta sobre nuestra Política de Cookies, no dudes en contactarnos a: [contact@canezsolutions.es]
           </p>
         </section>
       </main>

@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import { Send, CheckCircle2, AlertCircle } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -17,6 +17,7 @@ const serviceOptions = [
 ]
 
 export function Contact() {
+  const formRef = useRef<HTMLFormElement>(null)
   const [status, setStatus] = useState<FormStatus>('idle')
   const [errorMessage, setErrorMessage] = useState('')
 
@@ -48,7 +49,7 @@ export function Contact() {
       }
 
       setStatus('success')
-      e.currentTarget.reset()
+      formRef.current?.reset()
     } catch (error) {
       setStatus('error')
       setErrorMessage(error instanceof Error ? error.message : 'Error al enviar el mensaje')
@@ -84,7 +85,7 @@ export function Contact() {
                 </Button>
               </div>
             ) : (
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form ref={formRef} onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid gap-6 sm:grid-cols-2">
                   <div className="space-y-2">
                     <Label htmlFor="name">Nombre</Label>

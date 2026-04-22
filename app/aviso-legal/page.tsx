@@ -24,7 +24,7 @@ export default function LegalNotice() {
           <ul>
             <li><strong>Titular:</strong> CanezSolutions</li>
             <li><strong>Domicilio:</strong> [Dirección fiscal]</li>
-            <li><strong>Email:</strong> [email@canezsolutions.com]</li>
+            <li><strong>Email:</strong> [contact@canezsolutions.es]</li>
             <li><strong>Teléfono:</strong> [Teléfono de contacto]</li>
             <li><strong>Actividad:</strong> Servicios de ciberseguridad y consultoría IT</li>
           </ul>

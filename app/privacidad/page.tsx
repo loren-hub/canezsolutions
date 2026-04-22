@@ -23,7 +23,7 @@ export default function PrivacyPolicy() {
             <br />
             <strong>Dirección:</strong> [Dirección fiscal]
             <br />
-            <strong>Email:</strong> [email@canezsolutions.com]
+            <strong>Email:</strong> [contact@canezsolutions.es]
             <br />
             <strong>Finalidad:</strong> Prestación de servicios de ciberseguridad y gestión de datos de clientes
           </p>
@@ -70,7 +70,7 @@ export default function PrivacyPolicy() {
             <li>Oponerte al tratamiento de tus datos</li>
           </ul>
           <p>
-            Para ejercer estos derechos, contacta a: [email@canezsolutions.com]
+            Para ejercer estos derechos, contacta a: [contact@canezsolutions.es]
           </p>
 
           <h2>6. Conservación de Datos</h2>
