@@ -8,19 +8,20 @@ import { Team } from '@/components/team'
 import { Contact } from '@/components/contact'
 import { Footer } from '@/components/footer'
 
+export const dynamic = 'force-static'
+export const revalidate = 3600
+
 export default function Home() {
   return (
     <>
       <Header />
-      <main>
-        <Hero />
-        <Problem />
-        <Services />
-        <Process />
-        <About />
-        <Team />
-        <Contact />
-      </main>
+      <Hero />
+      <Problem />
+      <Services />
+      <Process />
+      <About />
+      <Team />
+      <Contact />
       <Footer />
     </>
   )

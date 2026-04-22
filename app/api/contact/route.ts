@@ -1,9 +1,27 @@
 import { NextResponse } from 'next/server'
 import { Resend } from 'resend'
+import { rateLimit } from '@/lib/rate-limit'
 
 const resend = new Resend(process.env.RESEND_API_KEY)
 
+// Get client IP from request headers
+function getClientIp(request: Request): string {
+  const forwarded = request.headers.get('x-forwarded-for')
+  if (forwarded) return forwarded.split(',')[0].trim()
+  return request.headers.get('x-real-ip') || 'unknown'
+}
+
 export async function POST(request: Request) {
+  const clientIp = getClientIp(request)
+  const { allowed, retryAfter } = rateLimit(clientIp)
+
+  if (!allowed) {
+    return NextResponse.json(
+      { error: `Demasiados intentos. Espera ${retryAfter} segundos.` },
+      { status: 429 }
+    )
+  }
+
   try {
     const { name, email, phone, company, service, message } = await request.json()
 

@@ -161,7 +161,11 @@ export function Contact() {
                 </div>
 
                 {status === 'error' && (
-                  <div className="flex items-center gap-2 text-sm text-destructive">
+                  <div
+                    className="flex items-center gap-2 text-sm text-destructive"
+                    role="alert"
+                    aria-live="assertive"
+                  >
                     <AlertCircle className="h-4 w-4" />
                     {errorMessage}
                   </div>
