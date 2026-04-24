@@ -19,7 +19,7 @@ export function JsonLdScript() {
       { '@type': 'DefinedTerm', name: 'Ciberseguridad' },
       { '@type': 'DefinedTerm', name: 'Monitorización de seguridad' },
       { '@type': 'DefinedTerm', name: 'Auditoría IT' },
-      { '@type': 'DefinedTerm', name: 'Mini SOC' },
+      { '@type': 'DefinedTerm', name: 'SOC' },
       { '@type': 'DefinedTerm', name: 'Protocolos de respuesta' },
     ],
     serviceArea: {
@@ -41,7 +41,7 @@ export function JsonLdScript() {
         },
         {
           '@type': 'Offer',
-          name: 'Mini SOC — Monitoreo de Accesos y Alertas',
+          name: 'SOC — Monitoreo de Accesos y Alertas',
           description:
             'Monitoreamos los accesos a tus sistemas y te avisamos cuando algo no cuadra.',
         },
@@ -93,10 +93,10 @@ export function JsonLdScript() {
       },
       {
         '@type': 'Question',
-        name: '¿Qué incluye el servicio de Mini SOC?',
+        name: '¿Qué incluye el servicio de SOC?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'El Mini SOC centraliza logs de Microsoft 365, Google Workspace y dispositivos de red, detecta comportamientos anómalos y genera informes mensuales de seguridad en lenguaje no técnico.',
+          text: 'El SOC centraliza logs de Microsoft 365, Google Workspace y dispositivos de red, detecta comportamientos anómalos y genera informes mensuales de seguridad en lenguaje no técnico.',
         },
       },
       {

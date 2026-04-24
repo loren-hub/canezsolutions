@@ -18,7 +18,7 @@ const services = [
   },
   {
     icon: Eye,
-    title: 'Mini SOC — Monitoreo de Accesos y Alertas',
+    title: 'SOC — Monitoreo de Accesos y Alertas',
     description:
       'Monitoreamos los accesos a tus sistemas y te avisamos cuando algo no cuadra. Inicios de sesión fuera de horario, intentos de acceso repetidos, conexiones desde ubicaciones inusuales. No esperamos a que el daño ocurra para enterarnos.',
     bullets: [

@@ -11,7 +11,7 @@ type FormStatus = 'idle' | 'loading' | 'success' | 'error'
 
 const serviceOptions = [
   'Auditoría y supervisión de seguridad',
-  'Mini SOC — monitoreo de accesos y alertas',
+  'SOC — monitoreo de accesos y alertas',
   'Protocolos de respuesta sugeridos',
   'No sé todavía, necesito orientación',
 ]

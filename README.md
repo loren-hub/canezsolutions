@@ -17,7 +17,7 @@ This project follows a "technical editorial" approach:
 ## 🚀 Key Features
 
 - **Brutalist Technical Aesthetic**: A unique design language that avoids standard SaaS tropes, focusing on typography, grid-less layouts, and technical authenticity.
-- **Service-Oriented Architecture**: Clear, detailed presentation of core services (Auditing, Mini SOC, and Response Protocols) with real-world case studies.
+- **Service-Oriented Architecture**: Clear, detailed presentation of core services (Auditing, SOC, and Response Protocols) with real-world case studies.
 - **Fully Responsive**: Optimized for all devices, from mobile to desktop.
 - **Contact Integration**: Functional contact form powered by the [Resend API](https://resend.com/).
 - **SEO Optimized**: Strict adherence to technical SEO standards, including metadata, semantic HTML, and accessibility.
